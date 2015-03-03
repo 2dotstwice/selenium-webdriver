@@ -6,8 +6,14 @@
       "TwoDotsTwice\\Selenium\\Tests\\": ["tests"]
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/2dotstwice/php-webdriver.git"
+    }
+  ],
   "require-dev": {
-    "facebook/webdriver": "dev-master",
+    "facebook/webdriver": "dev-phing-compatibility",
     "phing/phing": "~2.10",
     "phpunit/phpunit": "4.5.*",
     "sauce/sausage": ">=0.9.1",
