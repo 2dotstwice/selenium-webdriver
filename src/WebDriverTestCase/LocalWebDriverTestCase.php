@@ -11,7 +11,7 @@ abstract class LocalWebDriverTestCase extends WebDriverTestCase
      */
     public function getWebDriver()
     {
-        return WebDriver::create(WebDriver::DEFAULT_HOST);
+        return WebDriver::create(WebDriver::DEFAULT_HOST, $this->getDesiredCapabilities());
     }
 
     /**
