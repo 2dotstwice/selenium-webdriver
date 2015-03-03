@@ -18,6 +18,7 @@ abstract class WebDriverTestCase extends \PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
+        parent::setUp();
         $this->driver = $this->getWebDriver();
     }
 
@@ -40,7 +41,9 @@ abstract class WebDriverTestCase extends \PHPUnit_Framework_TestCase
      */
     public function tearDown()
     {
-        $this->driver->quit();
+        if (!empty($this->driver)) {
+            $this->driver->quit();
+        }
         parent::tearDown();
     }
 }
