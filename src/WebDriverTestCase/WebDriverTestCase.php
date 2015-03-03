@@ -27,14 +27,14 @@ abstract class WebDriverTestCase extends \PHPUnit_Framework_TestCase
      *
      * @return WebDriver $driver
      */
-    public abstract function getWebDriver();
+    abstract public function getWebDriver();
 
     /**
      * Returns a new DesiredCapabilities object to use when creating the WebDriver object.
      *
      * @return \DesiredCapabilities
      */
-    public abstract function getDesiredCapabilities();
+    abstract public function getDesiredCapabilities();
 
     /**
      * {@inheritdoc}
