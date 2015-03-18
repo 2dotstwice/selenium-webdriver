@@ -15,4 +15,4 @@ notifications:
     - bert@2dotstwice.be
   hipchat:
     rooms:
-      secure: PHFM1l1L8EZ/Bw9NTNWFjyCvoP/hRdDskX4vK9wYCwlQLAHYBdqX8RcNkdBWHQG1Be4goq8wV1yh9sXs3GN1I3pY5MQyQxPgZgV9DmMZOZC+ByVr73KTcC9kznPzAKpCZRcYqTGTlYh2JctBoVBN2nGwoQ0YmvwlIHIYOXz3vxY=
+      secure: dDSvXCm3wo7jXeX+nCI26+Qy4pr1IniBL5SIQu/T56t338sCshDt3hFlx4619/yudnqc3F/PZELahjhDBCuFEFA5nx/swd6rh4ryv9qvaG6cZSZSqUlyILwLOBG/1JBJkKszfXtbrArq8nOI1Fh+PeAQOtG5Dnsykb1XkuwjrZ8=
