@@ -13,7 +13,7 @@
     }
   ],
   "require-dev": {
-    "facebook/webdriver": "dev-phing-compatibility",
+    "facebook/webdriver": "dev-exception-classes",
     "phing/phing": "~2.10",
     "phpunit/phpunit": "4.5.*",
     "sauce/sausage": ">=0.9.1",
